@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    // "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "lib": ["esnext", "dom"],
+    "types": ["node"],
+
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@/*": ["src/*"],
+      "@common/*": ["src/common/*"],
+      "@hooks/*": ["src/common/hooks/*"],
+      "@utils/*": ["src/common/js/*"],
+      "@store/*": ["src/store/*"],
+      "@assets/*": ["src/assets/*"],
+      "@types/*": ["src/types/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts", "src/**/*.vue", "eslintrc-auto-import.json", "auto-imports.d.ts", "components.d.ts", "logconfig/*.js"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

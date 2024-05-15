@@ -1,0 +1,157 @@
+@charset "utf-8";
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+dl,
+dt,
+dd,
+li,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+  outline: none;
+  border: 0;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #666;
+}
+
+em,
+var,
+i {
+  font-style: normal;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='button'] {
+  -webkit-appearance: none;
+  /*去除input默认样式*/
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #c2c3c8;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c2c3c8;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c2c3c8;
+}
+
+::-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #c2c3c8;
+}
+
+input {
+  outline: none;
+}
+
+input[disabled='true'] {
+  background-color: transparent;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+}
+
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: none;
+}
+
+body {
+  /*background-color: #FAFAFA;*/
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*  全局隐藏CLASS */
+
+.hide {
+  display: none;
+}
+
+.clearfix:after {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  content: '';
+}
+
+body {
+  -webkit-text-size-adjust: 100% !important;
+  font-size: 12px;
+  overflow-x: hidden;
+  font-family: 'PingFang SC', 'Source Han Sans SC', MiSans, HarmonyOS Sans, OPPO SANS, 'Microsoft YaHei', 'Helvetica Neue', Arial, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+pre,
+form,
+input,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  text-indent: 0;
+}

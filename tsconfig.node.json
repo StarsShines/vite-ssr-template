@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts", "proxy.ts", "eslintrc-auto-import.json", "auto-imports.d.ts", "components.d.ts"]
+}

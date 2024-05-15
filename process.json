@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "test-ssr",
+      "script": "server-prod.js",
+      "error_file": "/home/test/logs/error.log",
+      "out_file": "/home/test/logs/out.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
