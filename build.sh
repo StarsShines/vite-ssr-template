@@ -1,16 +1,6 @@
-#!/usr/bin/env bash
-source ~/.bashrc
-docker -v
-
-
-
-if [ $? -ne 0 ]; then
-exit 1
-fi
-
 mkdir -p ./output/
 # 避免污染外部环境在docker内操作打包部署
-# cp -r ./dist ./output/dist
+
 cp -r ./logconfig ./output/logconfig
 cp -r ./public ./output/public
 cp -r ./nodeInstall ./output/nodeInstall

@@ -17,7 +17,7 @@ export default {
     }
   },
   onAppReady(callBack) {
-    if (window && window.SFApp) {
+    if (window && window.App) {
       typeof callBack === 'function' && callBack();
     } else {
       window.addEventListener('AppReady', callBack);
